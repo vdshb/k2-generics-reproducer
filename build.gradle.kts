@@ -1,6 +1,6 @@
 plugins {
-    kotlin("multiplatform") version "2.0.0"   // compilation exception
-//    kotlin("multiplatform") version "1.9.23"  // works fine
+    kotlin("multiplatform") version "2.0.20-RC"   // compilation exception
+//    kotlin("multiplatform") version "1.9.24"  // works fine
 }
 
 val isLinux = System.getProperty("os.name") == "Linux"
